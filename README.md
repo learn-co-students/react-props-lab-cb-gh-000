@@ -1,4 +1,4 @@
-# React defaultProps lab
+# React Props lab
 
 ## Objectives
 1. Practice defining components with default props
