@@ -10,8 +10,9 @@
   "scripts": {
     "debug": "node-debug --hidden node_modules _mocha --watch",
     "debug-ide": "./bin/debug-ide",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json",
-    "build": "browserify index.js -t babelify -o bundle.js"
+    "test": "mocha -R mocha-multi --require test/root.js --reporter-options nyan=-,json=.results.json",
+    "bundle": "browserify index.js -t babelify --exclude react/addons --exclude react/lib/ExecutionEnvironment --exclude react/lib/ReactContext -o bundle.js",
+    "bundle:test": "browserify test/index-test.js -t babelify --exclude react/addons --exclude react/lib/ExecutionEnvironment --exclude react/lib/ReactContext -o browser-test-bundle.js"
   },
   "repository": {
     "type": "git",

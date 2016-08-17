@@ -1,21 +1,9 @@
 const React = require('react');
+const ReactDOM = require('react-dom');
 
-class Car extends React.Component {
-  render() {
-    return (
-      <div>
-        <h2>{this.props.name}</h2>
-        <p>Horsepower: {this.props.horsepower}</p>
-        <p>Has rockets: {this.props.hasRockets.toString()}</p>
-        <p>Colors: {this.props.colors.join(', ')}</p>
-      </div>
-    );
-  }
-}
+const Car = require('./components/Car');
 
-Car.defaultProps = {
-  colors: ['black', 'red'],
-  hasRockets: false,
-};
-
-module.exports = Car;
+ReactDOM.render(
+  <Car name="Nux' Car" />,
+  document.getElementById('main')
+);

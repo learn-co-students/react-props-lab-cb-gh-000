@@ -1,7 +1,7 @@
 const React = require('react');
 const { shallow } = require('enzyme');
 
-const Car = require('../index');
+const Car = require('../components/Car');
 
 describe('<Car />', () => {
   describe('Props', function () {
