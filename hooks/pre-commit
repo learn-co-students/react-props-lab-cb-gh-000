@@ -1,0 +1,10 @@
+#!/bin/sh
+
+CURRENT_BRANCH=`git rev-parse --abbrev-ref HEAD`
+
+npm run bundle:test
+
+if [ $CURRENT_BRANCH == "wip-solution" ] || [ $CURRENT_BRANCH == "solution" ]
+then
+    npm test
+fi
