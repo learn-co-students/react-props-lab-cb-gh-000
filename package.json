@@ -1,7 +1,7 @@
 {
-  "name": "react-default-props-lab",
+  "name": "react-props-lab",
   "version": "0.1.0",
-  "description": "Practice using defaultProps in React",
+  "description": "Practice using props in React",
   "engines": {
     "node": "6.x",
     "npm": "3.x"
