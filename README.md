@@ -26,6 +26,8 @@ Note: you'll need to _export_ the `Car` component, like this:
 module.exports = class Car extends React.Component { ... };
 // OR
 module.exports = React.createClass({ ... });
+// OR declare your component first, and then:
+module.exports = Car;
 ```
  
 ## Resources
