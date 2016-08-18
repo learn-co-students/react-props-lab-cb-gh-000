@@ -11,8 +11,8 @@ Let's say we're a War Boy going to a local Fury Road car meetup. Since we're goi
 post-apocalyptic murder machines on wheels, we need to represent them somehow. That's where you come in! You'll be
 creating a React component that shows us some info on a given car.
 
-2. In the `components/Car.js` file, create a `Car` React component
-3. This component has several props: 
+1. In the `components/Car.js` file, create a `Car` React component
+2. This component has several props: 
     1. `name` (string)
     2. `horsepower` (number)
     3. `hasRockets` (boolean, defaults to `false`)
