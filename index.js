@@ -4,6 +4,6 @@ const ReactDOM = require('react-dom');
 const Car = require('./components/Car');
 
 ReactDOM.render(
-  <Car name="Nux' Car" />,
+  <Car name="V8 Interceptor" />,
   document.getElementById('main')
 );
