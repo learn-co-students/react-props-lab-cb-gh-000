@@ -17,13 +17,6 @@ class Car extends React.Component {
   }
 }
 
-Car.propTypes = {
-  name: React.PropTypes.string,
-  horsepower: React.PropTypes.number,
-  hasRockets: React.PropTypes.bool,
-  colors: React.PropTypes.arrayOf(React.PropTypes.string),
-};
-
 Car.defaultProps = {
   hasRockets: false,
   colors: ['black', 'red'],

@@ -60,13 +60,6 @@ var Car = function (_React$Component) {
   return Car;
 }(_react2.default.Component);
 
-Car.propTypes = {
-  name: _react2.default.PropTypes.string,
-  horsepower: _react2.default.PropTypes.number,
-  hasRockets: _react2.default.PropTypes.bool,
-  colors: _react2.default.PropTypes.arrayOf(_react2.default.PropTypes.string)
-};
-
 Car.defaultProps = {
   hasRockets: false,
   colors: ['black', 'red']
