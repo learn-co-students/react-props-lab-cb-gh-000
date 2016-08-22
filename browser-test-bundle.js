@@ -21,7 +21,7 @@ var Car = function (_React$Component) {
   function Car() {
     _classCallCheck(this, Car);
 
-    return _possibleConstructorReturn(this, Object.getPrototypeOf(Car).call(this));
+    return _possibleConstructorReturn(this, Object.getPrototypeOf(Car).apply(this, arguments));
   }
 
   _createClass(Car, [{
