@@ -1,9 +1,9 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 
-const Car = require('./components/Car');
+const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
-  <Car name="V8 Interceptor" />,
+  <Spaceship name="Millennium Falcon" />,
   document.getElementById('main')
 );

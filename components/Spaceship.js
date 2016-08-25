@@ -1,11 +1,11 @@
-import React from 'react';
+const React = require('react');
 
-class Car extends React.Component {
+class Spaceship extends React.Component {
   render() {
     return (
       <div>
         <h1>{this.props.name}</h1>
-        <p>Horsepower: {this.props.horsepower}</p>
+        <p>Speed: {this.props.speed}</p>
         <p>Has rockets: {this.props.hasRockets ? 'Yes' : 'No'}</p>
         <p>Colors: {this.props.colors.join(', ')}</p>
       </div>
@@ -13,9 +13,9 @@ class Car extends React.Component {
   }
 }
 
-Car.defaultProps = {
+Spaceship.defaultProps = {
   hasRockets: false,
   colors: ['black', 'red'],
 };
 
-module.exports = Car;
+module.exports = Spaceship;
