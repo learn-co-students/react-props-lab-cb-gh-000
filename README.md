@@ -1,10 +1,10 @@
 # React Props lab
 
-## Objectives
-1. Practice defining components with default props
-2. Override default props with your own prop values
-
 ## Overview
+
+In this lab, you'll define components with default props and you'll also override default props with your own prop values. 
+
+## Star Wars
 ![Millennium Falcon](https://media.giphy.com/media/4kL3Q4lIggnGU/giphy.gif)
 
 Let's say we're a spaceship captain going to a local Star Wars meetup. Since we want to showcase the awesome ships
