@@ -7,9 +7,7 @@ In this lab, you'll define components with default props and you'll also overrid
 ## Star Wars
 ![Millennium Falcon](https://media.giphy.com/media/4kL3Q4lIggnGU/giphy.gif)
 
-Let's say we're a spaceship captain going to a local Star Wars meetup. Since we want to showcase the awesome ships
-people are commandeering, we need to represent them somehow. That's where you come in! You'll be creating a React
-component that shows us some info on a given spaceship.
+Let's say we're a spaceship captain going to a local Star Wars meetup. Since we want to showcase the awesome ships people are commandeering, we need to represent them somehow. That's where you come in! You'll be creating a React component that shows us some info on a given spaceship.
 
 1. In the `components/Spaceship.js` file, create a `Spaceship` React component
 2. This component has several props: 
