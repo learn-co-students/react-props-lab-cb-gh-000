@@ -21,11 +21,9 @@ Feel free to render out the data in any form you wish!
 Note: you'll need to _export_ the `Spaceship` component, like this:
 
 ```js
-module.exports = class Spaceship extends React.Component { ... };
-// OR
-module.exports = React.createClass({ ... });
+export default class Spaceship extends React.Component { ... };
 // OR declare your component first, and then:
-module.exports = Spaceship;
+export default Spaceship;
 ```
  
 ## Resources
