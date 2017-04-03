@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react'
 
-class Spaceship extends React.Component {
+export default class Spaceship extends React.Component {
   render() {
     return (
       <div>
@@ -17,5 +17,3 @@ Spaceship.defaultProps = {
   hasRockets: false,
   colors: ['black', 'red'],
 };
-
-module.exports = Spaceship;

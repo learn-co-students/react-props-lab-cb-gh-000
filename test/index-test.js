@@ -1,7 +1,7 @@
-const React = require('react');
-const { shallow } = require('enzyme');
+import React from 'react'
+import { shallow } from 'enzyme';
 
-const Spaceship = require('../components/Spaceship');
+import Spaceship from '../components/Spaceship';
 
 describe('<Spaceship />', () => {
   describe('Props', function () {
