@@ -27,4 +27,4 @@ export default Spaceship;
 ```
  
 ## Resources
-- [Default Props](https://facebook.github.io/react/docs/reusable-components.html#default-prop-values)
+- [Default Props](https://facebook.github.io/react/docs/typechecking-with-proptypes.html)
