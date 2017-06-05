@@ -12,7 +12,7 @@ Let's say we're a spaceship captain going to a local Star Wars meetup. Since we 
 1. In the `components/Spaceship.js` file, create a `Spaceship` React component
 2. This component has several props: 
     1. `name` (string)
-    2. `speed` (number)
+    2. `speed` (number, defaults to `slow`)
     3. `hasRockets` (boolean, defaults to `false`)
     4. `colors` (array of strings, defaults to `['black', 'red']`)
     
