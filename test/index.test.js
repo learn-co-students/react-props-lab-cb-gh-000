@@ -1,11 +1,13 @@
 import React from 'react';
 import { expect } from 'chai';
-import { shallow } from 'enzyme';
-
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 import Spaceship from '../src/components/Spaceship';
 
+Enzyme.configure({ adapter: new Adapter() })
+
 describe('<Spaceship />', () => {
-  
+
   describe('Props', () => {
 
     describe('name', () => {
@@ -23,9 +25,9 @@ describe('<Spaceship />', () => {
 
       it('should render a `speed` prop', () => {
         const wrapper = shallow(
-          <Spaceship 
-            name="Millennium Falcon" 
-            speed={500} 
+          <Spaceship
+            name="Millennium Falcon"
+            speed={500}
           />
         );
 
@@ -42,8 +44,8 @@ describe('<Spaceship />', () => {
     describe('colors', () => {
       it("should default to `['black', 'red']`", () => {
         const wrapper = shallow(
-          <Spaceship 
-            name="Millennium Falcon" 
+          <Spaceship
+            name="Millennium Falcon"
           />
         );
         expect(wrapper.text().includes('black')).to.be.true;
@@ -52,9 +54,9 @@ describe('<Spaceship />', () => {
 
       it('should render the given colors', () => {
         const wrapper = shallow(
-          <Spaceship 
-            name="Millennium Falcon" 
-            colors={['green', 'magenta']} 
+          <Spaceship
+            name="Millennium Falcon"
+            colors={['green', 'magenta']}
           />
         );
 
