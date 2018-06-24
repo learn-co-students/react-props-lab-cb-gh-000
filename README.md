@@ -1,6 +1,6 @@
 # React Props lab
 
-## Overview
+## Overdview
 
 In this lab, you'll define components with default props and you'll also override default props with your own prop values. 
 
